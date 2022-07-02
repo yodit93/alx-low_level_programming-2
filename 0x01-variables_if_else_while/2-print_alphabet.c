@@ -1,27 +1,18 @@
-#include <stdlib.h>
+#include <stdio.h>
 
-#include <time.h>
-
-/* more headers goes there */
-
-
-
-/* betty style doc for function main goes there */
+/**
+ * main -Entry point
+ *
+ * Return: Always 0 (Success/correct)
+ */
 
 int main(void)
-
 {
-char upper_case;
-char lower_case;
-for (upper_case = "A"; upper_case < "Z"; upper_case++)
+char alphabet;
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-putchar(upper_case);
+putchar(alphabet);
 }
-
-for (lower_case = "a"; lower_case < "z"; lower_case++)
-{
-putchar(lower_case);
-}
-
-putchar("\n");
+putchar('\n');
 return (0);
+}
