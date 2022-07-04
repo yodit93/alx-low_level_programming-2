@@ -19,7 +19,7 @@ putchar(j);
 
 if ((i == j) || (j == 57))
 {
-break;
+continue;
 }
 putchar(',');
 putchar (' ');
