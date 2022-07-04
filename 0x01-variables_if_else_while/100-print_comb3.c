@@ -19,7 +19,7 @@ putchar(j);
 
 if ((i == j) && (i == 56))
 {
-continue;
+break;
 }
 
 
