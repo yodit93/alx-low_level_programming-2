@@ -17,13 +17,13 @@ for (j = i + 1; j <= 57; j++)
 putchar(i);
 putchar(j); 
 
-putchar(',');
-putchar(' ');
 if ((i == j) && (j ==57))
 {
 continue;
 }
-
+putchar(',');
+putchar(' ');
+}
 }
 
 putchar('\n');
