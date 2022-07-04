@@ -16,8 +16,8 @@ for (j = i + 1; j <= 57; j++)
 {
 putchar(i);
 putchar(j);
-	
-if ((i == j) && (j == 57))
+
+if ((i == j) || (j == 57))
 {
 break;
 }
