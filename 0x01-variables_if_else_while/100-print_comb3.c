@@ -17,15 +17,15 @@ for (j = i + 1; j <= 57; j++)
 putchar(i);
 putchar(j);
 
-if (i == j)
+if ((i == j) && (i == 56)
 {
 continue;
 }
-if (j < 57)
-{
+
+
 putchar(',');
 putchar(' ');
-}
+
 }
 }
 
