@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point 
+ * main - entry point
  *
  * Return: 0
  */
@@ -15,12 +15,14 @@ for (i = 48; i <= 57; i++)
 for (j = i + 1; j <= 57; j++)
 {
 putchar(i);
-putchar(j); 
+putchar(j);
 
 if (i == j)
 {
 continue;
 }
+if (j == 57)
+break;
 putchar(',');
 putchar(' ');
 }
