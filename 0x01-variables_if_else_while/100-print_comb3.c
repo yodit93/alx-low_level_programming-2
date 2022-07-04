@@ -21,10 +21,11 @@ if (i == j)
 {
 continue;
 }
-if (j == 57)
-break;
+if (j < 57)
+{
 putchar(',');
 putchar(' ');
+}
 }
 }
 
