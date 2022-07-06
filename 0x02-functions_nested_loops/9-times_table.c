@@ -10,7 +10,7 @@ for (a = 0; a <= 9; a++)
 {
 	for (b = 0; b <= 9; b++)
 	{
-		_putchar(a * b);
+		_putchar((a * b) + '0');
 		
 		if (b == 9)
 		continue;
