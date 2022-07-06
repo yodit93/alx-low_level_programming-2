@@ -13,7 +13,7 @@ void print_alphabet(void){
 	{
 		_putchar(alphabet);
 	}
-	_putcahr('\n');
+	_putchar('\n');
 }
 return (0);
 
