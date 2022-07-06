@@ -14,5 +14,7 @@ void print_alphabet(void){
 	}
 	_putcahr('\n');
 }
+return (0);
+}
 
 
