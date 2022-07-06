@@ -10,7 +10,7 @@ int lastdigit;
 
 if (n < 0)
 {
-lastdigit =(-1 (n % 10));
+lastdigit =(-1 * (n % 10));
 _putchar('0' + lastdigit);
 
 return (lastdigit);
@@ -18,9 +18,9 @@ return (lastdigit);
 else
 {
 
-last_digit = (n % 10);
-_putchar (last_digit + '0');
-return (last_digit);
+lastdigit = (n % 10);
+_putchar (lastdigit + '0');
+return (lastdigit);
 }
 
 }
