@@ -1,23 +1,22 @@
 #include "main.h"
 /**
- * print_line - prints line
- * @n: the number of times the character - will be printed
- * Return: 0 Always
+ * print_line - print a line using a character -
+ * @n: number of times chr - will be printed
+ * Return: Always 0
  */
 void print_line(int n)
 {
 
-
 int i;
 
-if (n > 0)
+if (n >0)
 {
-for (i = 0; i < n; i++)
+for (i =0; i < n; i++)
 {
-_putchar(95); 
+_putchar(95);
 }
 
-_putchar('\n'); 
+_putchar('\n');
 }
 
 else
