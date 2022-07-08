@@ -9,7 +9,7 @@ int main(void)
 
 int i;
 
-for (i = 0; i <= 100; i++)
+for (i = 1; i <= 100; i++)
 {
 if (i % 15 == 0)
 {
@@ -17,18 +17,20 @@ printf("FIZZBUZZ");
 }
 else if (i % 5 == 0)
 {
-printf("BUZZ ");
+printf("BUZZ");
 }
 else if (i % 3 == 0)
 {
-printf("FIZZ ");
+printf("FIZZ");
 }
 
 else
 {
-printf("%i\n", i);
+printf("%i", i);
 }
-
+if (i == 100)
+continue;
+printf(" ");
 }
 return (0);
 }
