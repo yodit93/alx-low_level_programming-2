@@ -13,7 +13,11 @@ for (i = 1; i <= 100; i++)
 {
 if (i % 5 == 0 && i % 3 == 0)
 {
-printf("FIZZBUZZ");
+printf("FIZZBUZZ ");
+}
+else if (i % 3 == 0)
+{
+printf("FIZZ ");
 }
 else if (i % 5 == 0)
 {
@@ -26,18 +30,11 @@ else
 printf("BUZZ");
 }
 }
-else if (i % 3 == 0)
-{
-printf("FIZZ ");
-}
 
 else
 {
-printf("%i", i);
+printf("%i ", i);
 }
-if (i == 100)
-continue;
-printf(" ");
 }
 
 printf("\n");
