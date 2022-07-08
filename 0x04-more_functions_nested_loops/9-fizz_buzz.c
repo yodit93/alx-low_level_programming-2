@@ -17,11 +17,18 @@ printf("FIZZBUZZ");
 }
 else if (i % 5 == 0)
 {
+if (i < 100)
+{
+printf("BUZZ ");
+}
+else
+{
 printf("BUZZ");
+}
 }
 else if (i % 3 == 0)
 {
-printf("FIZZ");
+printf("FIZZ ");
 }
 
 else
