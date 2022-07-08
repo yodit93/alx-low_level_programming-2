@@ -11,37 +11,25 @@ int i;
 
 for (i = 0; i <= 100; i++)
 {
-if (i % 3 == 0)
+if (i % 15 == 0)
 {
-_putchar ('F');
-_putchar ('I');
-_putchar ('Z');
-_putchar ('Z');
+printf("FIZZBUZZ");
 }
 else if (i % 5 == 0)
 {
-_putchar ('B');
-_putchar ('U');
-_putchar ('Z');
-_putchar ('Z');
+printf("BUZZ ");
 }
-else if (i % 15 == 0)
+else if (i % 3 == 0)
 {
-_putchar ('F');
-_putchar ('I');
-_putchar ('Z');
-_putchar ('Z');
-_putchar ('B');
-_putchar ('U');
-_putchar ('Z');
-_putchar ('Z');
+printf("FIZZ ");
 }
 
 else
 {
-_putchar (i + '0');
+printf("%i\n", i);
 }
 
-_putchar ('\n');
+}
 
 }
+
