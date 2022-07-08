@@ -32,6 +32,10 @@ if (i == 100)
 continue;
 printf(" ");
 }
+
+printf("\n");
+
 return (0);
+
 }
 
