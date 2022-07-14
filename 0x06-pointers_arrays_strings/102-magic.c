@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - modifying the array 2
+ * Return: 0
+ */
 
 int main(void)
 {
