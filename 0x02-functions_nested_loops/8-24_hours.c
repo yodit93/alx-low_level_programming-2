@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * jack_bauer - fiunction to print the time in 24 hour format
  */
