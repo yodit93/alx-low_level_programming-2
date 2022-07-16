@@ -9,13 +9,13 @@ int main(void)
 	unsigned long int j, k, next;
 	unsigned long int even = 0;
 	int i;
-	
+
 	j = 1;
 	k = 2;
 
-	for (i = 1; i < 4000000; i++)
+	for (i = 1; i <= 33; i++)
 	{
-		if ((j % 2) == 0)
+		if ((j < 4000000) && (j % 2) == 0)
 		{
 			even = even + j;
 		}
