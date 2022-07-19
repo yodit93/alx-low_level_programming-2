@@ -7,15 +7,15 @@
  */
 char *_strchr(char *s, char c)
 {
-	unsigned int b = 0, a;
+	unsigned int a = 0, b;
 
-	while (s[b])
-		b++;
+	while (s[a])
+		a++;
 
-	for (a = 0; a < b; a++)
+	for (b = 0; b < a; b++)
 	{
-		if (c == s[a])
-			s = s + b;
+		if (c == s[b])
+			s = s + a;
 			return (s);
 	}
 	return ('\0');
