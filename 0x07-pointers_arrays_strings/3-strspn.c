@@ -14,17 +14,27 @@ unsigned int _strspn(char *s, char *accept)
 	str1 = s;
 	str2 = accept;
 
-	for (i = 0; str1[i] != '\0'; a++)
+	i = 0;
+
+	while (str1[i] != '\0')
 	{
-		for (j = 0; str2[j] != '\0'; j++)
+		j = 0;
+
+		while (str2[j] != '\0')
 		{
 			if (str1[i] == str2[j])
+			{
 				length++;
 				break;
+			}
+			j++;
 		}
+
 		if (s[i] != accept[j]) /*If aren't equals*/
 			break;
+		i++;
 	}
+
 	return (length);
 }
 
