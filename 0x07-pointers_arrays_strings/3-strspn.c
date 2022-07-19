@@ -7,17 +7,23 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
+	char *str1, *str2;
 	int i, j, length;
 
 	length = 0;
+	str1 = s;
+	str2 = accept;
 
-	for (i = 0; s[i] != '\0'; a++)
+	for (i = 0; str1[i] != '\0'; a++)
 	{
-		for (j = 0; accept[j] != '\0'; j++)
+		for (j = 0; str2[j] != '\0'; j++)
 		{
-			if (s[i] == accept[j])
+			if (str1[i] == str2[j])
 				length++;
+				break;
 		}
+		if (s[i] != accept[j]) /*If aren't equals*/
+			break;
 	}
 	return (length);
 }
