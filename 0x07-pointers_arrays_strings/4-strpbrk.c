@@ -15,14 +15,11 @@ for (i = 0; s[i] != '\0')
 	{
 		if (s[i] == accept[j])
 		{
-			break;
-			return (i);
+			return (s);
 
 		}
 
 	}
-		if (s[i] != accept[j])
-			return (0);
 }
 }
 
