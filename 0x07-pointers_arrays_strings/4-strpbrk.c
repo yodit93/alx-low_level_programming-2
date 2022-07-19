@@ -13,7 +13,7 @@ for (i = 0; s[i] != '\0')
 {
 	for (j = 0; accept[j] != '\0'; j++)
 	{
-		if (s[i] == accept[j])
+		if (*s == accept[j])
 		{
 			return (s);
 
