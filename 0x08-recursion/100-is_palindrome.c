@@ -2,10 +2,10 @@
 
 /**
  * _strlen_recursion - size
- * @c: pointer to string params
+ * @s: pointer to string params
  * Return: recursion
  */
-int _strlen_recursion(char *c)
+int _strlen_recursion(char *s)
 {
 	if (!*s)
 		return (0);
