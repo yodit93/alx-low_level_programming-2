@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlibi.h>
 /**
  * main - print the multiplication result of two numbers
  * @argc: arguments pasedd
  * @argv: array of arguments
  * Return: 1 or result of multiplication based on condition
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int result, num1, num2;
 
