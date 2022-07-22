@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlibi.h>
+#include <stdlib.h>
 /**
  * main - print the multiplication result of two numbers
  * @argc: arguments pasedd
