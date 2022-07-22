@@ -16,7 +16,7 @@ int main(int argc, char *argv)
 		return (1);
 	}
 
-	num1 = atoi(argv[1]); /* atoi converts string to number*/
+	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
 	result = num1 * num2;
 	
