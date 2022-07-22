@@ -5,7 +5,7 @@
  * @argv: array of list of commands
  * Return: 0 on success
  */
-int main(int argc, *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", *argv);
 }
