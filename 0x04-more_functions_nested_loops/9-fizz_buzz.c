@@ -13,28 +13,24 @@ for (i = 1; i <= 100; i++)
 {
 if (i % 5 == 0 && i % 3 == 0)
 {
-printf("FIZZBUZZ ");
+printf("FIZZBUZZ");
 }
 else if (i % 3 == 0)
 {
-printf("FIZZ ");
+printf("FIZZ");
 }
 else if (i % 5 == 0)
 {
-if (i < 100)
-{
-printf("BUZZ ");
-}
-else
-{
 printf("BUZZ");
 }
-}
-
 else
 {
 printf("%i ", i);
 }
+if (i == 100)
+continue;
+printf(" ");
+
 }
 
 printf("\n");
