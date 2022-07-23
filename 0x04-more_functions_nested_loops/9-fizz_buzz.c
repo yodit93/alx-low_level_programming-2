@@ -13,15 +13,15 @@ for (i = 1; i <= 100; i++)
 {
 if (i % 5 == 0 && i % 3 == 0)
 {
-printf("FIZZBUZZ");
+printf("%s", "FIZZBUZZ");
 }
 else if (i % 3 == 0)
 {
-printf("FIZZ");
+printf("%s", "FIZZ");
 }
 else if (i % 5 == 0)
 {
-printf("BUZZ");
+printf("%s", "BUZZ");
 }
 else
 {
